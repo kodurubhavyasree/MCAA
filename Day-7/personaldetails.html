@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Personal Details</title>
+<style>
+table 
+{
+border=0;
+}
+</style>
+<script>
+function Submit(){
+alert("from submmited");
+}
+ function Clear() {
+      document.getElementById("txtName").value = "";
+      document.getElementById("txtAge").value = "";
+      document.getElementById("txtMobileNumber").value = "";
+      document.getElementById("txtEmail Id").value = "";
+      document.getElementById("txtCourse").value = "";
+    }
+function Exit() {
+ if(confirm("Are you sure you want to exit"))
+{
+window.close();
+}
+}
+</script>
+</head>
+<body>
+<h1>Personal Details</h1>
+<table border=0>
+<tr>
+<th>Name</th>
+<td><input id="txtName"></td>
+</tr>
+<tr>
+<th>Age</th>
+<td><input id="txtAge"></td>
+</tr>
+<tr>
+<th>MobileNumber</th>
+<td><input id="txtMobileNumber"></td>
+</tr>
+<tr>
+<th>Email Id</th>
+<td><input id="txtEmail Id"></td>
+</tr>
+<tr>
+<th>Course</th>
+<td><input id="txtCourse"></td>
+</tr>
+<tr>
+<td><button onclick="Submit()">submit</button></td>
+<td><button onclick="Clear()">clear</button></td>
+<td><button onclick="Exit()">exit</button></td>
+</tr>
+</table>
+</body>
+</html>
