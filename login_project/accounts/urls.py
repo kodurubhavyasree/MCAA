@@ -1,9 +1,8 @@
-
 from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('login/', views.login_view, name='login'),
+    path('login/',views.login_view, name='login'),
     path('home/', views.home, name='home'),
     path('logout/', views.logout_view, name='logout'),
     path('abc/',views.abc, name='abc'),
@@ -21,7 +20,7 @@ urlpatterns = [
     path('mca204/',views.mca204, name='mca204'),
     path('mca205/',views.mca205, name='mca205'),
     path('mca206/',views.mca206, name='mca206'),
-    path('mca207/',views.mca207, name='mca207'),
+    path('mca207/', views.mca207,name='mca207'),
     path('mca208/',views.mca208, name='mca208'),
     path('mca209/',views.mca209, name='mca209'),
     path('mca301/',views.mca301, name='mca301'),
@@ -36,5 +35,5 @@ urlpatterns = [
     path('mca310/',views.mca310, name='mca310'),
     path('mca401/',views.mca401, name='mca401'),
     path('mca402/',views.mca402, name='mca402'),
+    path('mca403/',views.mca403, name='mca403'),
 ]
-# Create your views here.
