@@ -1,0 +1,21 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+<title>javascript</title>
+<link rel="stylesheet" href="index.html">
+<script src="{% static 'js/script.js' %}">
+</script>
+</head>
+<body>
+<p>First Number:<input id="txtFirstNumber"></p>
+<p>Second Number:<input id="txtSecondNmuber"></p>
+<button onclick="add()">Add them</button>
+<button onclick="sub()">sub them</button>
+<button onclick="abc()">clear them</button>
+<p>sum=<input id="txtAnswer"></p>
+<h1>welcome!</h1>
+<label for="nameInput">enter your name:</label>
+<input type="text"id="nameInput"oninput="showGreeting()">
+</body>
+</html>

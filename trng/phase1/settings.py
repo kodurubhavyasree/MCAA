@@ -1,0 +1,4 @@
+INSTALLED-Apps=[
+
+    phase1',
+]
