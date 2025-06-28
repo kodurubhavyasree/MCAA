@@ -1,0 +1,107 @@
+{% load static %}
+<html>
+<head>
+<title>Graphics</title>
+<link rel="stylesheet" href="{% static 'css/bhavya.css' %}">
+</head>
+<body>
+<h1> MTICA </h1>
+<div class="navbar">
+<div class="dropdown">
+<button class="dropbtn">Semester-I</button>
+<div class="dropdown-content">
+<a href="{% url 'mca101' %}">MCA101</a>
+<a href="{% url 'mca102' %}">MCA102</a>
+<a href="{% url 'mca103' %}">MCA103</a>
+<a href="{% url 'mca104' %}">MCA104</a>
+<a href="{% url 'mca105' %}">MCA105</a>
+<a href="{% url 'mca106' %}">MCA106P</a>
+<a href="{% url 'mca107' %}">MCA107P</a>
+<a href="{% url 'mca108' %}">MCA108P</a>
+</div></div>
+<div class="dropdown">
+<button class="dropbtn">Semester-II</button>
+<div class="dropdown-content">
+<a href="{% url 'mca201' %}">MCA201</a>
+<a href="{% url 'mca202' %}">MCA202</a>
+<a href="{% url 'mca203' %}">MCA203</a>
+<a href="{% url 'mca204' %}">MCA204</a>
+<a href="{% url 'mca205' %}">MCA205</a>
+<a href="{% url 'mca206' %}">MCA206</a>
+<a href="{% url 'mca207' %}">MCA207P</a>
+<a href="{% url 'mca208' %}">MCA208P</a>
+<a href="{% url 'mca209' %}">MCA209P</a>
+</div></div>
+<div class="dropdown">
+<button class="dropbtn">Semester-III</button>
+<div class="dropdown-content">
+<a href="{% url 'mca301' %}">MCA301</a>
+<a href="{% url 'mca302' %}">MCA302</a>
+<a href="{% url 'mca303' %}">MCA303</a>
+<a href="{% url 'mca304' %}">MCA304</a>
+<a href="{% url 'mca305' %}">MCA305</a>
+<a href="{% url 'mca307' %}">MCA307</a>
+<a href="{% url 'mca308' %}">MCA308P</a>
+<a href="{% url 'mca309' %}">MCA309P/a>
+<a href="{% url 'mca310' %}">MCA310P</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Semester-IV</button>
+<div class="dropdown-content">
+<a href="{% url 'mca401' %}">S/W Testing</a>
+<a href="{% url 'mca402' %}">Internet of Things</a>
+<a href="{% url 'mca403' %}">Major Project Work</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Faculty</button>
+<div class="dropdown-content">
+<a href="{% url 'm' %}">PRABAKAR NAIDU</a>
+<a href="{% url 'n' %}">MURALI MOHAN</a>
+<a href="{% url 'o' %}">CHANDRA SHAKER</a>
+<a href="{% url 'p' %}">HASYA</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">About Us</button>
+<div class="dropdown-content">
+<a href="about.html">Information</a>
+
+</div>
+</div>
+</div>
+<h1>WELCOME TO COMPUTER GRAPHICS<h1>
+<p>MCA 302: Computer Graphics 
+UNIT I 
+Overview of Graphics systems, Application areas of Computer Graphics, video-display devices, Raster-scan 
+systems, random scan systems, graphics monitors and workstations and input devices. Output primitives: 
+Points and lines, line drawing algorithms, mid-point circle and ellipse algorithms.  
+UNIT II 
+Filled area primitives: Scan line polygon fill algorithm, boundary-fill and flood-fill algorithms. 2-D 
+Geometrical transforms: Translation, scaling, rotation, reflection and shear transformations, matrix 
+representations and homogeneous coordinates. 
+UNIT III 
+2-D Viewing: The viewing pipeline, viewing coordinate reference frame, window to view-port coordinate 
+transformation, viewing functions, Cohen-Sutherland and Cyrus-beck line clipping algorithms, Sutherland 
+Hodgeman polygon clipping algorithm. 
+UNIT IV 
+3-D Object representation: Polygon surfaces, quadric surfaces, spline representation, Hermite curve, Bezier 
+curve and B-spline curves, Bezier and B-spline surfaces. Basic illumination models, polygon rendering 
+methods. 
+UNIT V 
+3-D Geometric transformations: Translation, rotation, scaling, reflection and shear transformations, composite 
+transformations, 3-D viewing: Viewing pipeline, viewing coordinates, view volume and general projection 
+transforms and clipping. 
+Computer Animation: Design of animation sequence, general computer animation functions, Raster 
+animations, Computer animation languages, Key frame systems 
+Text Books: 
+1. Donald Hearn and M.Pauline Baker, Computer Graphics C Version, Second Edition, Pearson  
+Educations.2005. 
+Reference Books: 
+1. Steven Harrington (1987), Computer Graphics – A Programming Approach, Second Edition, McGraw –  
+Hill International Editions. 
+2. William M. Newman and Robert F. Sprowli (1979), Principles of Interactive Computer Graphics, second  
+Edition, McGraw – Hill International Editions.</p>
+</body>
+</html>
